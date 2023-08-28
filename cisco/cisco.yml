@@ -1,0 +1,5 @@
+- name: Run multiple commands on remote nodes
+  cisco.ios.ios_command:
+    commands:
+      - show version
+      - show interfaces
